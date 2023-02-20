@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import "./App.css";
+import React from 'react'
 
-function App() {
+
+// import FunctionComponent from "./components/DemoComponent/FunctionComponent";
+// import ClassComponent from "./components/DemoComponent/ClassComponent";
+// import DataBinding from "./components/DataBinding/DataBinding";
+// import HandleEvent from "./components/HandleEvent/HandleEvent";
+// import Layout from "./components/BaiTapLayout2/Layout";
+import DemoState from "./components/DemoState/DemoState"
+
+
+function App() {  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container">
+      <DemoState/>
+
     </div>
   );
 }
