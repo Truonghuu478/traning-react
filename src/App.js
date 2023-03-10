@@ -1,5 +1,6 @@
 // import "./App.css";
 import React from 'react'
+// import DemoChangeFSize from './components/DemoState/DemoChangeFSize';
 
 
 // import FunctionComponent from "./components/DemoComponent/FunctionComponent";
@@ -7,14 +8,13 @@ import React from 'react'
 // import DataBinding from "./components/DataBinding/DataBinding";
 // import HandleEvent from "./components/HandleEvent/HandleEvent";
 // import Layout from "./components/BaiTapLayout2/Layout";
-import DemoState from "./components/DemoState/DemoState"
+// import DemoState from "./components/DemoState/DemoState"
+// import DemoStyle from './components/DemoStyle/DemoStyle';
 
 
 function App() {  
   return (
     <div className="App container">
-      <DemoState/>
-
     </div>
   );
 }
