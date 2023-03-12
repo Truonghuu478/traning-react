@@ -1,5 +1,6 @@
 // import "./App.css";
 import React from 'react'
+import DemoProps from './components/Props/DemoProps/DemoProps';
 // import DemoChangeFSize from './components/DemoState/DemoChangeFSize';
 
 
@@ -15,6 +16,7 @@ import React from 'react'
 function App() {  
   return (
     <div className="App container">
+      <DemoProps/>
     </div>
   );
 }
