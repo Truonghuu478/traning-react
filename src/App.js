@@ -11,12 +11,13 @@ import DemoProps from './components/Props/DemoProps/DemoProps';
 // import Layout from "./components/BaiTapLayout2/Layout";
 // import DemoState from "./components/DemoState/DemoState"
 // import DemoStyle from './components/DemoStyle/DemoStyle';
+import ExPhone from "./components/Props/Ex_Phones/Ex_Phones"
 
-
-function App() {  
+function App() {
   return (
     <div className="App container">
-      <DemoProps/>
+      {/* <DemoProps/> */}
+      <ExPhone/>
     </div>
   );
 }
