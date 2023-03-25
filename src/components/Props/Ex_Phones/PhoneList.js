@@ -19,12 +19,9 @@ export default class PhoneList extends Component {
 
   render() {
     // console.log(this.props.data);
-    return <div className="row">{this.renderPhoneList()}</div>;
+    return <div className={` p-4`}>
+      <h3 className=" mb-2">Phone List</h3>
+      <div className="row">{this.renderPhoneList()}</div>
+    </div>
   }
 }
-var a = 2;
-
-var b = a;
-var c = b;
-
-// c=2
